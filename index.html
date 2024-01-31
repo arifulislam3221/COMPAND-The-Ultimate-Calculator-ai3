@@ -4,8 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COMPAND-the-ultimate-calculator</title>
+    <!-- tailwind and daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+
+    <!-- styles -->
+    <!-- css-->
+    <style>
+      .font-poppins {
+        font-family: 'Poppins', sans-serif;
+    }
+    </style>
+    <!-- js -->
 </head>
 <body>
-    <h1>testing...</h1>
+    <header class=" mx-auto w-[350px] sm:w-[640px] md:[768px] lg:w-[1024px] xl:[1280px] 2xl:[1536px]">
+        <nav class="">
+            <div class=" mb-2 drop-shadow-lg navbar bg-base-100 bg-gradient-to-r from-[#d8dee9] from-10% via-[#eceff4] via-30% to-[#e5e9f0] to-90% hover:from-[#2e3440] hover:via-[#4c566a] hover:to-[#3b4252]">
+                <div class="flex-1">
+                  <a class="btn btn-ghost text-xl gap-0 text-fuchsia-500 font-extrabold">Comp<span class="text-purple-500 font-bold">And</span></a>
+                </div>
+                <div class="flex-none gap-2">
+                  <div class="form-control">
+                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                  </div>
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                      <div class="w-10 rounded-full">
+                        <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                      </div>
+                    </div>
+                    <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                      <li>
+                        <a class="justify-between">
+                          Profile
+                          <span class="badge">New</span>
+                        </a>
+                      </li>
+                      <li><a>Settings</a></li>
+                      <li><a>Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main class="mx-auto w-[350px] sm:w-[640px] md:[768px] lg:w-[1024px] xl:[1280px] 2xl:[1536px] bg-gradient-to-r from-[#2e3440] from-10% via-[#4c566a] via-30% to-[#3b4252] to-90% ">
+        <!-- hover:from-[#d8dee9] hover:via-[#eceff4] hover:to-[#e5e9f0] -->
+
+        <section class="flex flex-col items-center w-full h-[600px] border border-emerald-950 drop-shadow-xl">
+            <nav class="w-4/5 p-5">
+                <div class="w-full h-[70px] border-red-700 border ">
+                    
+                </div>
+            </nav>
+            <aside class="flex flex-row justify-between items-center w-full h-full border border-emerald-950 p-6">
+                
+                <div class="w-3/12 h-[300px] border-red-700 border ">
+    
+                </div>
+                <div class="w-3/12 h-[300px] border-red-700 border ">
+    
+                </div>
+            </aside>
+            <nav class="w-4/5 p-5">
+                <div class="w-full h-[70px] border-red-700 border ">
+                    
+                </div>
+            </nav>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
